@@ -1,0 +1,232 @@
+{
+    "teams": {
+        "teamid1": {
+            "id": "teamid1",
+            "name": "Pal\u00f3ci Polg\u00e1rok",
+            "city": "Pal\u00f3c City"
+        },
+        "teamid2": {
+            "id": "teamid2",
+            "name": "Hat\u00e1ront\u00fali Hunters",
+            "city": "Kolozsv\u00e1r"
+        },
+        "teamid3": {
+            "id": "teamid3",
+            "name": "The Hinkeydinkeys",
+            "city": "Hortob\u00e1gy"
+        },
+        "teamid4": {
+            "id": "teamid4",
+            "name": "Sz\u00f6gedi Szal\u00e1mik",
+            "city": "Sz\u00f6ged"
+        },
+        "teamid5": {
+            "id": "teamid5",
+            "name": "Nagyv\u00e1rosi Nyusztok",
+            "city": "Budapest"
+        }
+    },
+    "matches": {
+        "matchid1": {
+            "id": "matchid1",
+            "home": {
+                "id": "teamid1",
+                "score": "2"
+            },
+            "away": {
+                "id": "teamid2",
+                "score": "2"
+            },
+            "date": "2022-01-13"
+        },
+        "matchid6": {
+            "id": "matchid6",
+            "home": {
+                "id": "teamid3",
+                "score": "20"
+            },
+            "away": {
+                "id": "teamid4",
+                "score": "6"
+            },
+            "date": "2022-01-02"
+        },
+        "matchid3": {
+            "id": "matchid3",
+            "home": {
+                "id": "teamid1",
+                "score": ""
+            },
+            "away": {
+                "id": "teamid4",
+                "score": ""
+            },
+            "date": "2022-01-14"
+        },
+        "matchid4": {
+            "id": "matchid4",
+            "home": {
+                "id": "teamid3",
+                "score": "1"
+            },
+            "away": {
+                "id": "teamid5",
+                "score": "2"
+            },
+            "date": "2021-12-31"
+        },
+        "matchid2": {
+            "id": "matchid2",
+            "home": {
+                "id": "teamid4",
+                "score": "6"
+            },
+            "away": {
+                "id": "teamid3",
+                "score": "2"
+            },
+            "date": "2021-12-10"
+        },
+        "matchid7": {
+            "id": "matchid7",
+            "home": {
+                "id": "teamid1",
+                "score": "10"
+            },
+            "away": {
+                "id": "teamid5",
+                "score": "20"
+            },
+            "date": "2022-01-05"
+        },
+        "matchid5": {
+            "id": "matchid5",
+            "home": {
+                "id": "teamid4",
+                "score": "2"
+            },
+            "away": {
+                "id": "teamid1",
+                "score": "1"
+            },
+            "date": "2022-01-02"
+        }
+    },
+    "users": {
+        "admin": {
+            "id": "admin",
+            "username": "admin",
+            "email": "admin@elstadion.hu",
+            "password": "admin",
+            "admin": true
+        },
+        "fe282d20bc8dcc12647088d0fe0ca7d7": {
+            "id": "fe282d20bc8dcc12647088d0fe0ca7d7",
+            "username": "teszt1",
+            "email": "teszt@teszt.teszt",
+            "password": "$2y$10$YxzGUt4CbcVhw6ftYIGtRuUQxwUr.DEqwvtQgCDT.TEjkZOw\/l9dC",
+            "admin": false
+        },
+        "e970707c584b0c4574564ad239301c01": {
+            "id": "e970707c584b0c4574564ad239301c01",
+            "username": "teszt2",
+            "email": "haha@haha.lol",
+            "password": "$2y$10$9iYydZI.dzwrEHwLLR0WJeAqRbIe1626VGdY2zE7DE7wZyBUxy6nO",
+            "admin": false
+        },
+        "9cdfb439c7876e703e307864c9167a15": {
+            "id": "9cdfb439c7876e703e307864c9167a15",
+            "username": "lol",
+            "email": "lol@lol.lol",
+            "password": "$2y$10$\/E4gbc1On3iTghRM3PyjReY0RxQPOAZgMYpcJVvUpcQ1A9uwdJOUK",
+            "admin": false
+        },
+        "cbc9c614aa5eeb175b4837067d34fb8c": {
+            "id": "cbc9c614aa5eeb175b4837067d34fb8c",
+            "username": "ajelszavamaviccessz\u00e1m",
+            "email": "funny@number.xd",
+            "password": "$2y$10$QqExN8cVXiagEAm.VkCu3eKRVIS\/P.z5z4UaXFStxbqhMiWtz5LSe",
+            "admin": false
+        }
+    },
+    "comments": {
+        "commentid1": {
+            "author": "fe282d20bc8dcc12647088d0fe0ca7d7",
+            "text": "Hajr\u00e1 fi\u00fak!",
+            "teamid": "teamid1",
+            "date": "2021-12-20"
+        },
+        "commentid2": {
+            "author": "fe282d20bc8dcc12647088d0fe0ca7d7",
+            "text": "EPOSZI MECCS URAK!!!!!!",
+            "teamid": "teamid3",
+            "date": "2021-12-20"
+        },
+        "commentid4": {
+            "author": "fe282d20bc8dcc12647088d0fe0ca7d7",
+            "text": "Pogcs\u00e1mpa!",
+            "teamid": "teamid5",
+            "date": "2021-12-20"
+        },
+        "commentid5": {
+            "author": "fe282d20bc8dcc12647088d0fe0ca7d7",
+            "text": "Hatalmas g\u00f3l(!!!!) K\u00edgy\u00f3 J\u00f3tar\u00f3t\u00f3l. Csak \u00edgy tov\u00e1bb, Platina Csillag!! Hip Hip Hurr\u00e1!",
+            "teamid": "teamid2",
+            "date": "2021-12-20"
+        },
+        "commentid6": {
+            "author": "fe282d20bc8dcc12647088d0fe0ca7d7",
+            "text": "Ez de szarul ment nektek uraim. Hi\u00e1ba, a 4-es a balszerencsesz\u00e1mom.",
+            "teamid": "teamid4",
+            "date": "2021-12-20"
+        },
+        "553e4d538e7e6113305352721001c61f": {
+            "author": "fe282d20bc8dcc12647088d0fe0ca7d7",
+            "text": "dsadsa",
+            "teamid": "teamid2",
+            "date": "2022-01-13"
+        },
+        "43fbddb33a982cdb87a0132cacd3e1c4": {
+            "author": "fe282d20bc8dcc12647088d0fe0ca7d7",
+            "text": "fdsfds",
+            "teamid": "teamid1",
+            "date": "2022-01-13"
+        },
+        "1632d811afa7c647168fcf78a17a4e4c": {
+            "author": "fe282d20bc8dcc12647088d0fe0ca7d7",
+            "text": "hozz\u00e1sz\u00f3lok \u00e1m valamit",
+            "teamid": "teamid1",
+            "date": "2022-01-13"
+        },
+        "4639dd719048213cbfb73fb2c10f132c": {
+            "author": "admin",
+            "text": "JUH\u00c9!!!!!!!!!!!!!!!!",
+            "teamid": "teamid3",
+            "date": "2022-01-13"
+        },
+        "b244536f4994b14f55f19e9c7a9ba144": {
+            "author": "admin",
+            "text": "haha",
+            "teamid": "teamid2",
+            "date": "2022-01-13"
+        },
+        "3ffe6ec5763c2e12a6a1a844e3827358": {
+            "author": "9cdfb439c7876e703e307864c9167a15",
+            "text": "vicces hozz\u00e1sz\u00f3l\u00e1s.txt",
+            "teamid": "teamid1",
+            "date": "2022-01-13"
+        },
+        "07ad7ed234e1f0b146632b90e82ffbbf": {
+            "author": "cbc9c614aa5eeb175b4837067d34fb8c",
+            "text": "vicces sz\u00e1m\r\nhaha",
+            "teamid": "teamid4",
+            "date": "2022-01-13"
+        },
+        "f92df8552655bca995e0ef45bcbada25": {
+            "author": "cbc9c614aa5eeb175b4837067d34fb8c",
+            "text": "lol pog legal\u00e1bb a janu\u00e1ri meccs siker\u00fclt",
+            "teamid": "teamid3",
+            "date": "2022-01-13"
+        }
+    }
+}

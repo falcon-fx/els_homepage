@@ -1,0 +1,172 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: #012851;
+    color: white;
+}
+
+h1 {
+    color: #c3cede;
+    text-align: center;
+}
+
+h2 {
+    color: #c3cede;
+    text-align: center;
+}
+
+#menu {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin: 0;
+    border-radius: 1em;
+    border: 1px solid #2f5d85;
+    background: #2f5d85;
+}
+
+.won {
+    color:#0bda04;
+    text-shadow: 2px 2px #012851;
+}
+
+.lost {
+    color:#dd0202;
+    text-shadow: 2px 2px #012851;
+}
+
+.tie {
+    color:#f1d900;
+    text-shadow: 2px 2px #012851;
+}
+
+ul#menu li {
+    position: relative;
+    list-style-type: none;
+    margin: 0;
+    display: inline-table;
+}
+
+li {
+    list-style-type: none;
+    color: #e0e6ef;
+}
+
+input[type=text], input[type=password], input[type=email], input[type=number], input[type=date] {
+    padding: 0.5em;
+    border: none;
+    border-radius: 1em;
+}
+
+#authli, #editli {
+    text-align: left;
+    list-style-type: none;
+    margin-bottom: 0.5em;
+    border-radius: 1em;
+    background-color:#2f5d85;
+}
+
+label {
+    margin-left: 0.5em;
+}
+
+#intro {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+#i1 {
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+}
+
+#stadionimage {
+    border-radius: 1em;
+    width: 14em;
+}
+
+textarea {
+    font-family: Arial, sans-serif;
+    border-radius: 1em;
+    padding: 1em;
+    margin: 0.5em;
+}
+
+input[type=submit] {
+    border: none;
+    background-color: #e0e6ef;
+    color: #012851;
+    padding: 0.5em;
+    border-radius: 1em;
+}
+
+input[type=submit]:hover {
+    border: none;
+    background-color: #aaccff;
+    color: #012851;
+    padding: 0.5em;
+    border-radius: 1em;
+}
+
+tr {
+    border: none;
+    margin: 0;
+}
+
+th{
+    background: #e0e6ef;
+    border-radius: 1em 1em 0 0;
+    padding: 0.5em;
+    color: #2f5d85;
+
+}
+
+td {
+    padding: 0.5em;
+}
+
+#dettable, #commtable, #teamstable, #matchestable {
+    margin-bottom: 1em;
+    width: 100%;
+    background:#2f5d85;
+    text-align: center;
+    border-radius: 1em;
+}
+
+#comments {
+    text-align: center;
+}
+
+a:link {
+    padding: 0.5em;
+    color: #c9ffd8;
+    
+}
+
+a:visited {
+    padding: 0.5em;
+    color: #e0e6ef;
+}
+
+a:active {
+    padding: 0.5em;
+    color: #e0e6ef;
+}
+
+#back:hover {
+    background:#2f5d85;
+    padding: 0.5em;
+    border-radius: 1em;
+    color: white;
+}
+
+a:hover {
+    background:#012851;
+    padding: 0.5em;
+    border-radius: 1em;
+    color: white;
+}
